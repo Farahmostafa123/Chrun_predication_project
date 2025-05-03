@@ -99,4 +99,4 @@ Confusion matrix visualizations were also generated to evaluate the performance 
 
 1. Clone the repository
 2. Download files
-3. Run on Google Colab(CPU or GPU)
+3. Run on Google Colab (CPU or GPU)
