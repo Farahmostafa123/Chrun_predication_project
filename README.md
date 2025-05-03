@@ -93,57 +93,9 @@ Confusion matrix visualizations were also generated to evaluate the performance 
 
 ---
 
-## Model Interpretability
-
-### SHAP (SHapley Additive exPlanations)
-SHAP was used to explain the global and local predictions made by each model. The feature importance plots show how each feature impacts churn prediction.
-
-### LIME (Local Interpretable Model-agnostic Explanations)
-LIME was used for local explanations of individual predictions. For each model, LIME explained how specific feature values influenced the churn prediction.
-
-### Partial Dependence Plots (PDP) and Individual Conditional Expectation (ICE)
-PDP and ICE plots were used to show the relationship between specific features and churn predictions across the dataset. These plots provide insights into how changes in individual features affect the model’s prediction.
-
----
-
-## Model Comparison
-
-We compared all the models based on several evaluation metrics, including:
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1 Score**
-- **ROC AUC**
-
-The comparison results were visualized using radar charts and bar plots, providing an easy-to-understand summary of model performance.
-
----
-
-## Results
-
-### Best Performing Models:
-- **XGBoost**, **CatBoost**, and **LightGBM** consistently performed the best across all metrics, showing their strong ability to capture churn patterns.
-- **Neural Network (MLP)** performed closely to the ensemble models but showed slightly lower recall and F1 scores.
-- **Logistic Regression** and **Decision Tree** showed weaker performance, especially in recall and ROC AUC, indicating that they may not capture the minority (churn) class as effectively.
-- **KNN** underperformed across most metrics, particularly in recall and ROC AUC, suggesting it struggled with class boundaries.
-
-### Visualizations:
-The performance of the models was compared visually using:
-- **Radar charts** to compare multiple metrics.
-- **Bar charts** to visualize model accuracy.
-
----
 
 ## How to Run the Code
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/customer-churn-prediction.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the cloab notebook for data analysis and modeling:
-   ```bash
-  
+1. Clone the repository
+2. Download files
+3. Run on Google Colab
