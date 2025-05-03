@@ -77,6 +77,10 @@ The dataset used for this analysis is the **Telco Customer Churn** dataset. The 
 - **LightGBM**
 - **KNN**
 - **Neural Network (MLP)**
+- **GMM-ASVM**
+- **BiLSTM Classifier**
+- **SGB**
+- **EGBM**
 
 ### Model Evaluation Metrics:
 For each model, we evaluated:
