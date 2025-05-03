@@ -16,9 +16,6 @@ In this project, we use the **Telco Customer Churn** dataset to predict whether 
 1. [Data Loading and Preprocessing](#data-loading-and-preprocessing)
 2. [Feature Engineering](#feature-engineering)
 3. [Modeling and Evaluation](#modeling-and-evaluation)
-4. [Model Interpretability](#model-interpretability)
-5. [Model Comparison](#model-comparison)
-6. [Results](#results)
 
 ---
 
